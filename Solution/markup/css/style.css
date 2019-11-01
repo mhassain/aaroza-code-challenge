@@ -1,0 +1,147 @@
+body {
+  background-image: url(../img/photo-4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#main {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(43, 39, 39);
+}
+
+li.nav-item {
+  padding: 0 15px;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff554e;
+}
+
+.header h1 {
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+p {
+  color: #fff;
+  font-size: 18px;
+}
+p:last-child {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+input#email {
+  width: 350px;
+}
+button#btn {
+  width: 300px;
+  background-color: #ff554e;
+  color: #fff;
+  font-weight: 700px;
+}
+
+nav.navbar.navbar-expand-lg {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+form.form-inline {
+  margin-left: -14px !important;
+}
+
+/*=========== Media Query ===========*/
+@media (max-width: 575.98px) {
+  .navbar-toggler {
+    background-color: white;
+  }
+  .header h1 {
+    font-size: 28px;
+    padding-top: 30px;
+  }
+  .header {
+    width: 100% !important;
+  }
+  p {
+    font-size: 16px;
+  }
+  .form-group {
+    margin: 0 auto;
+  }
+  input#email {
+    width: 300px;
+  }
+  button#btn {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-toggler {
+    background-color: white;
+  }
+  .header h1 {
+    font-size: 28px;
+    padding-top: 25px;
+  }
+  .header {
+    width: 100% !important;
+  }
+  .form-group {
+    margin: 0 auto;
+  }
+  input#email {
+    width: 300px;
+    margin: 0 auto;
+  }
+  button#btn {
+    width: 190px;
+    margin: 0 auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .header {
+    width: 100% !important;
+  }
+  .form-group {
+    margin: 0 auto;
+  }
+  input#email {
+    width: 300px;
+  }
+  button#btn {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}

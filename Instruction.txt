@@ -1,0 +1,30 @@
+Need JavaScript Interns
+
+
+Frontend, vacancy - 2:
+- Must have good knowledge of JavaScript, Html, CSS
+- Good understanding of browser DOM API
+- Good to know a frontend framework
+
+Backend, vacancy - 2:
+- Must have good knowledge of JavaScript, Node.js
+- Good knowledge of MongoDB, Express, Mongoose
+
+- Enough git - pull, push, commit, merge
+- Running student would be ok, but you have to give us full time.
+
+If anyone doesn't have experience of framework, tooling, testing; no problem, we will teach you. Knowing both Frontend & Backend/fullstack candidates will get higher priority.
+
+Salary: 10k
+Company: Aaroza Infotech Ltd.
+Office time: 9 AM - 6 PM, Monday - Friday.
+Duration: 3 months.
+
+
+Application Process:
+1. Complete the code challenge by following provided instructions [https://github.com/joynal/aaroza-code-challenge].
+2. After completing the tasks, email us with the Github invitation link(add invitation for private repo) & your resume at `career@aaroza.com`. The email subject will be "Javascript intern - [Frontend/Backend/Fullstack]."
+
+Note: Please don't email us without completing the code challenge.
+
+Deadline: 15 October 2019.

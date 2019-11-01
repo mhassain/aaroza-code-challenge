@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Markup</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="container mt-5">
+        <div class="overlay"></div>
+        <!--------- Nav ------->
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">Start Simple</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- end of nav -->
+
+        <!------Header----->
+        <div class="header mt-3 mb-5" style="width: 50%">
+          <h1>startup landing page for your product and services</h1>
+        </div>
+        <!------header end---->
+
+        <!-----Paragraph------>
+        <div class="text">
+          <p>
+            Perfect landing page to showcase your product or service. Built with
+            bootstrap 4.
+          </p>
+          <p>
+            <b>TRY FOR FREE -</b> just leave your e-mail below and we will get
+            in touch.
+          </p>
+        </div>
+        <!------end paragraph---->
+        <form class="form-inline">
+          <div class="form-group mx-sm-3 mb-2 ">
+            <label for="email" class="sr-only">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              id="email"
+              placeholder="*Your Email Address"
+            />
+          </div>
+          <button type="submit" class="btn  mb-2 " id="btn">
+            Request Free Trial
+          </button>
+        </form>
+      </div>
+      <!---container end-->
+    </div>
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
